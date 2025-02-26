@@ -11,8 +11,8 @@ function App() {
       <Route path="/" element={<h1>Home</h1>} />
       <Route path="/product" element={<Product />}>
         <Route index element={<Product></Product>} />
-        <Route path="laptop" element={<Laptop />} />
-        <Route path="desktop" element={<Desktop />} />
+        <Route path="/laptop" element={<Laptop />} />
+        <Route path="/desktop" element={<Desktop />} />
       </Route>
       <Route path="*" element={<h1>Not Found!</h1>}/>
     </Routes>
